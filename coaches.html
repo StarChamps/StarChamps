@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entrenadores con más Copas del Mundo</title>
+    <link rel="stylesheet" type="text/css" href="coaches.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Entrenadores destacados con más Copas del Mundo</h2>
+        <table class="coaches-table">
+            <thead>
+                <tr>
+                    <th style="text-align: center;">Foto</th>
+                    <th style="text-align: center;">Nombre</th>
+                    <th style="text-align: center;">Cantidad de Veces Ganadas</th>
+                    <th style="text-align: center;">Años</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img style="margin-left: 120px; height: 80px; width: 90px; " src="IMAGES CS/pozzo.jpg" alt="Vittorio Pozzo" class="coach-photo"></td>
+                    <td>Vittorio Pozzo</td>
+                    <td>2</td>
+                    <td>1934, 1938</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/zagallo.jpg" alt="Mário Zagallo" class="coach-photo"></td>
+                    <td>Mário Zagallo</td>
+                    <td>1</td>
+                    <td>1970</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/beckenbauer.jpg" alt="Franz Beckenbauer" class="coach-photo"></td>
+                    <td>Franz Beckenbauer</td>
+                    <td>1</td>
+                    <td>1990</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/scolari.jpg" alt="Luiz Felipe Scolari" class="coach-photo"></td>
+                    <td>Luiz Felipe Scolari</td>
+                    <td>1</td>
+                    <td>2002</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/lippi.jpg" alt="Marcello Lippi" class="coach-photo"></td>
+                    <td>Marcello Lippi</td>
+                    <td>1</td>
+                    <td>2006</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/bosque.jpg" alt="Vicente del Bosque" class="coach-photo"></td>
+                    <td>Vicente del Bosque</td>
+                    <td>1</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/low.jpg" alt="Joachim Löw" class="coach-photo"></td>
+                    <td>Joachim Löw</td>
+                    <td>1</td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td><img style="margin-left: 110px; height: 100px; width: 100px;" src="IMAGES CS/deschampsjpg.jpg" alt="Didier Deschamps" class="coach-photo"></td>
+                    <td>Didier Deschamps</td>
+                    <td>1</td>
+                    <td>2018</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="video-container">
+        <h3 style="text-align: center;">Entrevista a Vitorio Pozzo, el entrenador con más Copas del Mundo</h3>
+        <video class="video" width="640" height="360" style="margin-left:250px;" controls>
+            <source src="IMAGES CS/Rara intervista di Vittorio Pozzo con Nando Martellini, ricordando il campionato del Mondo del 1938..mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    <div>
+        <h2 class="kkk" style="margin-left: 350px; white-space: nowrap;">Quiz de los DT Campeones del Mundo</h2>
+        <form id="quizForm">
+            <div class="question">
+                <label for="q1">¿Cuantas Copas del Mundo gano Vitorrio Pozzo?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="question">
+                <label for="q2">¿En qué año gano Luis Felipe Scolari la Copa del Mundo?</label>
+                <input type="text" id="q2" name="q2">
+            </div>
+            <div class="question">
+                <label for="q3">¿Qué nombre tiene el entrenador que gano la Copa Del Mundo en 1990?</label>
+                <input type="text" id="q3" name="q3">
+            </div>
+            <div class="question">
+                <label for="q4">¿Cuántas Copas Del Mundo ha ganado Joachim Low?</label>
+                <input type="text" id="q4" name="q4">
+            </div>
+            <button class="btt" style="margin-left: 520px;" type="button" onclick="checkAnswers()">Enviar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+</div>
+</div>
+<script src="quiz2.js"></script>
+
+    
+</div>
+</body>
+</html>

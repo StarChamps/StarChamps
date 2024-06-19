@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Bugs</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #252440;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        main {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <main>
+        <h1>Reportar Bugs</h1>
+        <form type="text" action="mailto:ramonalatristeangelgabriel@gmail.com" method="post">
+            <!-- Nombre -->
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <!-- Correo Electrónico -->
+            <div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- Descripción del Bug -->
+            <div>
+                <label for="description">Descripción del Bug:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <!-- Prioridad -->
+            <div>
+                <label for="priority">Prioridad:</label>
+                <select id="priority" name="priority">
+                    <option value="low">Baja</option>
+                    <option value="medium">Media</option>
+                    <option value="high">Alta</option>
+                </select>
+            </div>
+            <!-- Tipos de Bugs (Checkbox) -->
+            <div>
+                <p>Tipo de Bug:</p>
+                <label for="ui-bug">
+                    <input type="checkbox" id="ui-bug" name="bug_type[]" value="ui">
+                    Problema de Interfaz de Usuario
+                </label><br>
+                <label for="performance-bug">
+                    <input type="checkbox" id="performance-bug" name="bug_type[]" value="performance">
+                    Problema de Rendimiento
+                </label><br>
+                <label for="security-bug">
+                    <input type="checkbox" id="security-bug" name="bug_type[]" value="security">
+                    Problema de Seguridad
+                </label><br>
+                <label for="other-bug">
+                    <input type="checkbox" id="other-bug" name="bug_type[]" value="other">
+                    Otro
+                </label>
+            </div>
+            <!-- Sistema Operativo (Option Value) -->
+            <div>
+                <label for="os">Sistema Operativo:</label>
+                <select id="os" name="os">
+                    <option value="windows">Windows</option>
+                    <option value="mac">MacOS</option>
+                    <option value="linux">Linux</option>
+                    <option value="other">Otro</option>
+                </select>
+            </div>
+            <!-- Botón de Enviar -->
+            <div>
+                <button type="submit">Enviar Reporte</button>
+            </div>
+        </form>
+        <div>
+            <a href="index.html" class="back-button">Regresar al Inicio</a>
+        </div>
+        <style>
+            button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    display: block;
+    width: 97%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #d32f2f;
+}
+        </style>
+    </main>
+</body>
+</html>

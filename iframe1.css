@@ -1,0 +1,162 @@
+style>
+
+
+
+}
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 160px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content a {
+            text-decoration: none;
+            color: yellow;
+            text-align: center;
+            margin: 20px;
+        }
+        .content img {
+            display: block;
+            margin: 0 auto;
+        }
+        .content p {
+            margin-top: 10px;
+        }
+        iframe {
+            width: 100vw; /* Asegura que el iframe ocupe todo el ancho de la ventana */
+            height: 900px; /* Altura del iframe */
+            border: none; /* Sin borde */
+            display: block; /* Asegura que el iframe sea un bloque */
+            margin: 0; /* Quita márgenes */
+            padding: 0; /* Quita padding */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            width: -100%;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header img.logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .champion-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .champion-table th, .champion-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .champion-table th {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        .champion-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .champion-table tr:hover {
+            background-color: #ddd;
+        }
+        
+        .logo-table {
+            width: 50px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+        
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        .quiz {
+            margin-top: 30px;
+        }
+
+        iframe {
+            width: 100vw; /* Asegura que el iframe ocupe todo el ancho de la ventana */
+            height: 1000px; /* Altura del iframe */
+            border: none; /* Sin borde */
+            display: block; /* Asegura que el iframe sea un bloque */
+            margin: 0; /* Quita márgenes */
+            padding: 0; /* Quita padding */
+        }
+
+        @media (max-width: 768px) {
+            iframe {
+                transform: scale(0.8); /* Ajusta la escala para móviles */
+                transform-origin: 0 0; /* Asegura que la escala se aplique desde la esquina superior izquierda */
+                height: 720px; /* Ajusta la altura del iframe según la escala */
+            }
+
+            body, html {
+                margin-right: -210;
+                padding: 0;
+                height: 100%;
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+                width: -100%;
+            }
+
+            
+        }
+
+        

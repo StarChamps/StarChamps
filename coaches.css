@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    width: -100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #aaa;
+    background-color: #F5F5DC;
+}
+
+.container h2 {
+    background-color: yellowgreen;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: left;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -120px;
+}
+
+button:hover {
+    background-color: #45a049;
+    margin-left: -650px;
+}
+
+.quiz {
+    margin-top: 30px;
+}
+
+.iframe-container {
+    margin-top: 30px;
+}
+
+.coaches-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coaches-table th, .coaches-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.coaches-table th {
+    background-color: #f2f2f2;
+}
+
+.coach-photo {
+    width: 50px;
+    height: auto;
+}
+
+
+iframe {
+    width: 100vw; /* Asegura que el iframe ocupe todo el ancho de la ventana */
+    height: 1000px; /* Altura del iframe */
+    border: none; /* Sin borde */
+    display: block; /* Asegura que el iframe sea un bloque */
+    margin: 0; /* Quita márgenes */
+    padding: 0; /* Quita padding */
+}
+
+@media (max-width: 768px) {
+    iframe {
+        transform: scale(0.8); /* Ajusta la escala para móviles */
+        transform-origin: 0 0; /* Asegura que la escala se aplique desde la esquina superior izquierda */
+        height: 720px; /* Ajusta la altura del iframe según la escala */
+    }
+
+    iframe {
+        width: 100vw; /* Asegura que el iframe ocupe todo el ancho de la ventana */
+        height: 1000px; /* Altura del iframe */
+        border: none; /* Sin borde */
+        display: block; /* Asegura que el iframe sea un bloque */
+        margin: 0; /* Quita márgenes */
+        padding: 0; /* Quita padding */
+    }
+
+    body, html {
+        margin-right: -210;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        width: -100%;
+    }
+
+    .coach-photo {
+        margin-right:90px;
+    }
+
+    
+.container {
+    width: 200%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #aaa;
+    background-color: #F5F5DC;
+}
+
+.video-container h3 {
+    margin-right: -360px;
+    flex-wrap: nowrap;;
+}
+
+.video {
+    margin: 50px;
+    max-width: 120%;
+    margin-top: -60px;
+    
+}
+
+.video {
+    width: 100%;
+    max-width: 840px;
+    height: -20px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.kkk {
+    margin-left: 0; /* Inicializa el margen */
+    white-space: nowrap;
+    display: inline-block;
+    transform: translateX(-290px); /* Utiliza transform para mover */
+}
+
+.btt {
+    margin-left: 0; /* Inicializa el margen */
+    white-space: nowrap;
+    display: inline-block;
+    transform: translateX(-270px); /* Utiliza transform para mover */
+}
+
+button {
+    margin-left: -120px;
+}
+
+.
+
+.question {
+    margin-left:100px ;
+    white-space: nowrap;
+}
+}
+
